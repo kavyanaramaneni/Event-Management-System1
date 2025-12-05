@@ -31,8 +31,8 @@ Event CRUD: Create, Read, Update, and Delete event listings.
 
 User Management: View registered users and booking history.
 
-**🛠️ Tech Stack**
-Frontend:
+**🛠️ Tech Stack**\
+**Frontend:**
 
 React.js (Vite)
 
@@ -74,8 +74,8 @@ npm install
 Configure Environment Variables: Create a .env file in the server/ directory:
 
 PORT=5000\
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_super_secret_key
+MONGO_URI=your_mongodb_connection_string\
+JWT_SECRET=your_super_secret_key\
 CLIENT_URL=http://localhost:5173
 
 npm run dev\
