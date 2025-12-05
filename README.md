@@ -1,4 +1,4 @@
-🎫 Event Management System
+**🎫 Event Management System**
 A full-stack platform for seamless event discovery, management, and secure registration.
 
 📖 Description
@@ -12,8 +12,8 @@ Unlike standard listing sites, this project implements a dedicated Cart System f
 🔒 Role-Based Access Control (RBAC): Strict separation between General Users and Admins.
 
 ⚡ Dynamic Performance: Features skeleton loading for better UX during data fetches.
-🚀 Features
-👤 For Attendees (General Users)
+🚀 Features\
+**👤 For Attendees (General Users)**\
 Authentication: Secure Login, Signup, and Password Reset (/changepassword).
 
 Event Discovery: Browse events with category filtering and skeleton loading states.
@@ -26,12 +26,12 @@ Secure Checkout: Integrated payment processing (Simulated/Stripe).
 
 Dashboard: "My Events" page to view registered events and download invoices.
 
-🛠 For Organizers (Admins)
+**🛠 For Organizers (Admins)**\
 Event CRUD: Create, Read, Update, and Delete event listings.
 
 User Management: View registered users and booking history.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 Frontend:
 
 React.js (Vite)
@@ -40,17 +40,17 @@ Axios (API Requests)
 
 JS-Cookie (Session Management)
 
-Backend:
+**Backend:**
 
-Node.js
+1.Node.js
 
-Express.js
+2.Express.js
 
-JWT (JSON Web Tokens for Auth)
+3.JWT (JSON Web Tokens for Auth)
 
-Bcrypt.js (Password Hashing)
+4.Bcrypt.js (Password Hashing)
 
-Database:
+**Database:**
 
 MongoDB (Mongoose ODM)
 ⚙️ Installation & Setup
@@ -63,10 +63,11 @@ npm or yarn
 
 MongoDB Local or Atlas URI
 
+clone the repository
 git clone https://github.com/yourusername/event-management-system.git\
 cd event-management-system
 
-Backend Setup\
+**Backend Setup**\
 cd server\
 npm install
 
@@ -79,13 +80,13 @@ CLIENT_URL=http://localhost:5173
 
 npm run dev\
 
-Frontend Setup\
+**Frontend Setup**\
 cd client\
 npm install
 
-npm run dev
+npm run dev\-
 
-📖 Usage
+**📖 Usage**\
 Register: Create a new account on the /signup page.
 
 Browse: Explore events on the home page or filter by category.
@@ -94,8 +95,8 @@ Add to Cart: Select an event and click "Add to Cart".
 
 Checkout: Go to the Cart page and proceed to payment.
 
-View Tickets: After success, navigate to "My Events" to see your ticket and download the invoice.
-🗺️ Roadmap
+View Tickets: After success, navigate to "My Events" to see your ticket and download the invoice.\
+**🗺️ Roadmap**\
 Future enhancements planned for the project:
 
 [ ] 🔔 Notifications: Email/SMS reminders for upcoming events.
